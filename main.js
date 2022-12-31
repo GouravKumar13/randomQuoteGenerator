@@ -13,7 +13,7 @@ const generateQuote = () => {
         let randomQuote = data[randNum];
     
         
-        document.getElementById("quote").innerHTML = `${randomQuote.text}`;
+        document.getElementById("quote").innerHTML = `"${randomQuote.text}`;
         document.getElementById("author").innerHTML = `- ${randomQuote.author ? randomQuote.author : ""}`;
     });
 }

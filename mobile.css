@@ -1,7 +1,7 @@
 @media screen and (max-width: 469px) {
     .container{
        
-        width: 20rem;
+        width: fit-content;
     }
     h2{
         font-family: 'Oswald', sans-serif;
@@ -9,10 +9,12 @@
     }
     span{
         font-family: 'Chivo Mono', monospace;
+        font-size: 1.5rem;
         
     }
     p{
         font-family: 'Chivo Mono', monospace;
+        
         margin-top: 1rem;
         text-align: right;
         padding-right: 2rem;
@@ -24,4 +26,4 @@
         width: 10vw;
         border-radius: 20px;
     }
-    
+}
